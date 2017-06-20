@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Tahoma", sans-serif;
+    color: black;
+    background: white;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #eee;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+
+.range-filter {
+    padding-top: 10px;
+    width: 240px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.range-controls {
+    position: relative;
+    height: 80px;
+    margin-bottom: 15px;
+    padding: 0 30px;
+    background: #34495e;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.scale {
+    margin-top: 39px;
+    height: 2px;
+    background: #d7dcde;
+}
+
+.bar {
+    height: 2px;
+    background: #00ca74;
+    margin-left:50px;
+    width:100px;
+}
+
+.bar2 {
+	margin-left:10px;
+	width:150px;
+}
+
+.toggle {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 4px;
+    height: 4px;
+    border: 8px solid white;
+    background: #ababab;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.min-toggle {
+    left: 70px;
+}
+
+.min-toggle2 {
+    left: 40px;
+}
+
+.max-toggle {
+    left: 165px;
+}
+
+.max-toggle2 {
+    left: 180px;
+}
+
+.min-price,
+.max-price {
+    width: 55px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    border: none;
+    background: #34495e;
+    font-size: 16px;
+    font-family: "Tahoma", sans-serif;
+    text-align: center;
+    color: #283136;
+    border-radius: 5px;
+    color: white;
+}
+
+.min-price {
+    margin-right: 14px;
+}
